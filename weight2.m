@@ -1,5 +1,4 @@
-function [ w ] = weight( GO,file,no1,no2 )
-load GO
+function [ w ] = weight(file,no1,no2 )
 for i =no1:no2
     a=GOterm(i).num;
     for j=1:i-1
