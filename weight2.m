@@ -1,4 +1,4 @@
-function [ w ] = weight(file,no1,no2 )
+function [ w ] = weight(GOterm,file,no1,no2 )
 for i =no1:no2
     a=GOterm(i).num;
     for j=1:i-1
