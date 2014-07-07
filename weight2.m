@@ -14,7 +14,7 @@ for i =no1:no2
             end
             w(i-no1+1,j)=c/(a+b-c);
         else
-            w(i-no1+1,j)= -1;
+            w(i-no1+1,j)= 0;
         end
     end
     i
