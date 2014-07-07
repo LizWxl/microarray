@@ -1,9 +1,9 @@
 function [ w ] = weight(GOterm,file,no1,no2 )
 for i =no1:no2
     a=GOterm(i).num;
-    for j=1:i-1
+    for j=1:i
         b=GOterm(j).num;
-        if(b~=0 && a~=0)
+        if(b~=0 && a~=0 && i~=j)
             c=0;
             for m=1:a
                 for n=1:b
